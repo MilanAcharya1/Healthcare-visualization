@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt</File>
+          <FormatSpecificOptions>
+            <HeaderRow>False</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>65001</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Patients2.txt</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_2" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_3" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_4" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_5" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_6" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_7" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_8" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_9" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_10" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_11" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_12" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_13" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_14" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_15" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_16" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_17" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_18" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_19" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_20" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_21" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_22" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_23" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_24" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_25" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_26" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_27" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+            <Field name="Field_28" size="254" source="File: C:\Users\milan\Documents\SelfLearning works\SQL\Patients2.txt" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="558" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="54" MaxRecords="">C:\Users\milan\Documents\SelfLearning works\Alteryx outputs\demography.json</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <CodePage>28605</CodePage>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>demography.json</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Field_1" selected="True" rename="Id" />
+            <SelectField field="Field_2" selected="True" rename="BIRTHDATE" type="Date" size="10" />
+            <SelectField field="Field_3" selected="True" rename="DEATHDATE" type="Date" size="10" />
+            <SelectField field="Field_4" selected="True" rename="SSN" />
+            <SelectField field="Field_5" selected="True" rename="DRIVERS" />
+            <SelectField field="Field_6" selected="True" rename="PASSPORT" />
+            <SelectField field="Field_7" selected="True" rename="PREFIX" />
+            <SelectField field="Field_8" selected="True" rename="FIRST" />
+            <SelectField field="Field_9" selected="True" rename="LAST" />
+            <SelectField field="Field_10" selected="True" rename="SUFFIX" />
+            <SelectField field="Field_11" selected="True" rename="MAIDEN" />
+            <SelectField field="Field_12" selected="True" rename="MARITAL" />
+            <SelectField field="Field_13" selected="True" rename="RACE" />
+            <SelectField field="Field_14" selected="True" rename="ETHNICITY" />
+            <SelectField field="Field_15" selected="True" rename="GENDER" />
+            <SelectField field="Field_16" selected="True" rename="BIRTHPLACE" />
+            <SelectField field="Field_17" selected="True" rename="ADDRESS" />
+            <SelectField field="Field_18" selected="True" rename="CITY" />
+            <SelectField field="Field_19" selected="True" rename="STATE" />
+            <SelectField field="Field_20" selected="True" rename="COUNTY" />
+            <SelectField field="Field_21" selected="True" rename="FIPS" type="Int64" size="8" />
+            <SelectField field="Field_22" selected="True" rename="ZIP" type="Int64" size="8" />
+            <SelectField field="Field_23" selected="True" rename="LAT" type="Float" size="4" />
+            <SelectField field="Field_24" selected="True" rename="LON" type="Float" size="4" />
+            <SelectField field="Field_25" selected="True" rename="HEALTHCARE_EXPENSES" type="Float" size="4" />
+            <SelectField field="Field_26" selected="True" rename="HEALTHCARE_COVERAGE" type="Float" size="4" />
+            <SelectField field="Field_27" selected="True" rename="INCOME" type="Int64" size="8" />
+            <SelectField field="Field_28" selected="True" rename="Mrn" type="Int64" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="258" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Replace( [DEATHDATE] , '\N', '')&#xA;&#xA;" field="DEATHDATE" size="10" type="Date" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[DEATHDATE = Replace( [DEATHDATE] , '\N', '')
+
+
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>New Workflow1_Autosave</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="962a6fda-9dfe-4d1f-8c21-adb69507f537" />
+      <Telemetry>
+        <PreviousWorkflowId value="6c5eca81-5fb9-4fb5-9f6f-e77bae09723a" />
+        <OriginWorkflowId value="8936e42d-8a66-46f8-8151-52ace3bb4a76" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
