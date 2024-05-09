@@ -1,0 +1,313 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:DESKTOP-4PMUKJV\SQLEXPRESS|||"healthcare"."dbo"."patients"</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:DESKTOP-4PMUKJV\SQLEXPRESS
+Query="healthcare"."dbo"."patients...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Id" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="BIRTHDATE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="Date" />
+            <Field name="DEATHDATE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="Date" />
+            <Field name="SSN" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="DRIVERS" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="PASSPORT" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="PREFIX" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="FIRST" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="LAST" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="SUFFIX" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="MAIDEN" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="MARITAL" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="RACE" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="ETHNICITY" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="GENDER" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="BIRTHPLACE" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="ADDRESS" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="CITY" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="STATE" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="COUNTY" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="FIPS" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="Int32" />
+            <Field name="ZIP" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="Int32" />
+            <Field name="LAT" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="Double" />
+            <Field name="LON" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="Double" />
+            <Field name="HEALTHCARE_EXPENSES" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="Double" />
+            <Field name="HEALTHCARE_COVERAGE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="Double" />
+            <Field name="INCOME" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="Int32" />
+            <Field name="Mrn" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="198" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="BIRTHDATE" />
+            <Field field="DEATHDATE" />
+            <Field field="SSN" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:DESKTOP-4PMUKJV\SQLEXPRESS|||"healthcare"."dbo"."conditions"</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:DESKTOP-4PMUKJV\SQLEXPRESS
+Query="healthcare"."dbo"."conditio...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="START_DATE" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;conditions&quot;" type="V_String" />
+            <Field name="STOP_DATE" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;conditions&quot;" type="V_String" />
+            <Field name="PATIENT" size="1000" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;conditions&quot;" type="V_String" />
+            <Field name="ENCOUNTER" size="1000" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;conditions&quot;" type="V_String" />
+            <Field name="CODE" size="1000" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;conditions&quot;" type="V_String" />
+            <Field name="DESCRIPTION" size="200" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;conditions&quot;" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="282" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="id" selected="True" />
+            <SelectField field="prefix" selected="True" />
+            <SelectField field="first" selected="True" />
+            <SelectField field="last" selected="True" />
+            <SelectField field="race" selected="True" />
+            <SelectField field="ethnicity" selected="True" />
+            <SelectField field="city" selected="True" />
+            <SelectField field="county" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="402" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="False" />
+          <JoinFields>
+            <JoinInfo connection="#1">
+              <Field field="PATIENT" />
+            </JoinInfo>
+            <JoinInfo connection="#2">
+              <Field field="Id" />
+            </JoinInfo>
+          </JoinFields>
+          <CartesianMode>Allow</CartesianMode>
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#1_patient" selected="False" />
+                <SelectField field="Input_#2_id" selected="False" />
+                <SelectField field="Input_#2_drivers" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerTable.PortfolioComposerTable">
+        <Position x="738" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TableMode>Basic</TableMode>
+          <GroupingFields orderChanged="False">
+            <Field name="ETHNICITY" />
+          </GroupingFields>
+          <Width>100%</Width>
+          <ShowHeader value="True" />
+          <ShowBarGraph value="False" />
+          <TableFields orderChanged="False">
+            <Field name="DESCRIPTION" selected="True" Alignment="Left" />
+            <Field name="FIRST" selected="True" Alignment="Left" />
+            <Field name="LAST" selected="True" Alignment="Left" />
+            <Field name="RACE" selected="True" Alignment="Left" />
+            <Field name="ETHNICITY" selected="True" Alignment="Left" />
+            <Field name="CITY" selected="True" Alignment="Left" />
+            <Field name="COUNTY" selected="True" Alignment="Left" />
+            <Field name="START_DATE" selected="False" />
+            <Field name="STOP_DATE" selected="False" />
+            <Field name="ENCOUNTER" selected="False" />
+            <Field name="CODE" selected="False" />
+            <Field name="PREFIX" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </TableFields>
+          <TableStyles>
+            <Style Name="Data" Font="Arial" Size="8" TextColor="#000000" BackColor="#ffffff" AltColor="#f0f0f0" RowGroup="1" />
+            <Style Name="Header" Font="Arial" Size="10" TextColor="#000000" BackColor="#dbdbdb" />
+            <Style Name="Borders" Width="1" DataColor="#000000" HeaderColor="#000000" RowBorder="None" BasicColBorder="Default (Use Per Column Setting)" />
+            <Style Name="Table" CellPadding="0" ColumnPadding="0" TableBorder="true" Width="1" BorderColor="#000000" />
+          </TableStyles>
+          <StyleRules />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Basic Table</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTablePlugin" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Unique" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>New Workflow1</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="6c5eca81-5fb9-4fb5-9f6f-e77bae09723a" />
+      <Telemetry>
+        <PreviousWorkflowId value="8936e42d-8a66-46f8-8151-52ace3bb4a76" />
+        <OriginWorkflowId value="8936e42d-8a66-46f8-8151-52ace3bb4a76" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
