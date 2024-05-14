@@ -1,0 +1,345 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:DESKTOP-4PMUKJV\SQLEXPRESS|||"healthcare"."dbo"."patients"</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:DESKTOP-4PMUKJV\SQLEXPRESS
+Query="healthcare"."dbo"."patients...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Id" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="BIRTHDATE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="Date" />
+            <Field name="DEATHDATE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="Date" />
+            <Field name="SSN" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="DRIVERS" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="PASSPORT" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="PREFIX" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="FIRST" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="LAST" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="SUFFIX" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="MAIDEN" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="MARITAL" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="RACE" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="ETHNICITY" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="GENDER" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="BIRTHPLACE" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="ADDRESS" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="CITY" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="STATE" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="COUNTY" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="V_String" />
+            <Field name="FIPS" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="Int32" />
+            <Field name="ZIP" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="Int32" />
+            <Field name="LAT" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="Double" />
+            <Field name="LON" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="Double" />
+            <Field name="HEALTHCARE_EXPENSES" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="Double" />
+            <Field name="HEALTHCARE_COVERAGE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="Double" />
+            <Field name="INCOME" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="Int32" />
+            <Field name="Mrn" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=healthcare;SERVER=DESKTOP-4PMUKJV\SQLEXPRESS;Trusted_Connection=yes|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;patients&quot;" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="162" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>LAST</Field>
+          <RegExExpression value="2" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="1">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>LAST</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Id_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="294" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\milan\Documents\SelfLearning works\Alteryx outputs\CSV_files\csv_patients.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>csv_patients.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File FileFormat="23" RecordLimit="">aka:DESKTOP-4PMUKJV\SQLEXPRESS|||"healthcare"."dbo"."immunizations"</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:DESKTOP-4PMUKJV\SQLEXPRESS
+Query="healthcare"."dbo"."immuniza...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DATE" source="File: aka:DESKTOP-4PMUKJV\SQLEXPRESS|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;immunizations&quot;" type="DateTime" />
+            <Field name="PATIENT" size="100" source="File: aka:DESKTOP-4PMUKJV\SQLEXPRESS|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;immunizations&quot;" type="V_String" />
+            <Field name="ENCOUNTER" size="100" source="File: aka:DESKTOP-4PMUKJV\SQLEXPRESS|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;immunizations&quot;" type="V_String" />
+            <Field name="CODE" source="File: aka:DESKTOP-4PMUKJV\SQLEXPRESS|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;immunizations&quot;" type="Int32" />
+            <Field name="DESCRIPTION" size="500" source="File: aka:DESKTOP-4PMUKJV\SQLEXPRESS|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;immunizations&quot;" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="282" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\milan\Documents\SelfLearning works\Alteryx outputs\CSV_files\csv_immunizations.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>csv_immunizations.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File FileFormat="23" RecordLimit="">aka:DESKTOP-4PMUKJV\SQLEXPRESS|||"healthcare"."dbo"."conditions"</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:DESKTOP-4PMUKJV\SQLEXPRESS
+Query="healthcare"."dbo"."conditio...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="START_DATE" size="100" source="File: aka:DESKTOP-4PMUKJV\SQLEXPRESS|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;conditions&quot;" type="V_String" />
+            <Field name="STOP_DATE" size="100" source="File: aka:DESKTOP-4PMUKJV\SQLEXPRESS|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;conditions&quot;" type="V_String" />
+            <Field name="PATIENT" size="1000" source="File: aka:DESKTOP-4PMUKJV\SQLEXPRESS|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;conditions&quot;" type="V_String" />
+            <Field name="ENCOUNTER" size="1000" source="File: aka:DESKTOP-4PMUKJV\SQLEXPRESS|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;conditions&quot;" type="V_String" />
+            <Field name="CODE" size="1000" source="File: aka:DESKTOP-4PMUKJV\SQLEXPRESS|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;conditions&quot;" type="V_String" />
+            <Field name="DESCRIPTION" size="200" source="File: aka:DESKTOP-4PMUKJV\SQLEXPRESS|||&quot;healthcare&quot;.&quot;dbo&quot;.&quot;conditions&quot;" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="270" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\milan\Documents\SelfLearning works\Alteryx outputs\CSV_files\csv_conditions.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>csv_conditions.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>conversion_to_csv</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="e210b0f9-b2e2-4147-bbd9-98aaf6ae19eb" />
+      <Telemetry>
+        <PreviousWorkflowId value="e3f5d529-1616-4ea1-9621-d11604e2e6fb" />
+        <OriginWorkflowId value="e3f5d529-1616-4ea1-9621-d11604e2e6fb" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
